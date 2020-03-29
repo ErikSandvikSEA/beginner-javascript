@@ -24,7 +24,16 @@ people.forEach((person, index) => {
 
 // Some Setup Code
 
+// function doALotOfStuff() {
+//   console.group('Doing some stuff');
+//   console.log('Hey Im one');
+//   console.warn('watch out');
+//   console.error('hey');
+//   console.groupEnd('Doing some stuff');
+// }
+
 function doctorize(name) {
+  // console.count('running Doctorize');
   return `Dr. ${name}`;
 }
 

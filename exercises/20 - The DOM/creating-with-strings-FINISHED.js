@@ -10,6 +10,8 @@ const myHTML = `
   </div>
 `;
 
+// item.innerHTML = myHTML;
+
 // turn a string into a DOM element
 const myFragment = document.createRange().createContextualFragment(myHTML);
 

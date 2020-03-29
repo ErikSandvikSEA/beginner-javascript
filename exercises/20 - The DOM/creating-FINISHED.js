@@ -24,20 +24,33 @@ heading.textContent = 'Cool Things';
 
 myDiv.insertAdjacentElement('beforebegin', heading);
 
-// <ul>
-// <li>One</li>
-// <li>two</li>
-// <li>three</li>
-// <li>four</li>
-// <li>five</li>
-// </ul>
+{
+  /* <ul>
+  <li>One</li>
+  <li>two</li>
+  <li>three</li>
+  <li>four</li>
+  <li>five</li>
+</ul>; */
+}
 
 const list = document.createElement('ul');
-const li = document.createElement('li');
-li.textContent = 'three';
-list.appendChild(li);
+const liOne = document.createElement('li');
+const liTwo = document.createElement('li');
+const liThree = document.createElement('li');
+const liFour = document.createElement('li');
 
-document.body.insertAdjacentElement('afterbegin', list);
+liOne.textContent = 'three';
+// liTwo.textContent = 'two';
+// liThree.textContent = 'three';
+// liFour.textContent = 'four';
+
+list.appendChild(liOne);
+// list.appendChild(liTwo);
+// list.appendChild(liThree);
+// list.appendChild(liFour);
+
+document.body.insertAdjacentElement('beforeend', list);
 
 const li5 = document.createElement('li');
 li5.textContent = 'Five';

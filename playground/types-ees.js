@@ -1,4 +1,4 @@
-/* eslint-disable */
+//  eslint-disable
 
 // const name = 'wes';
 // const middle = "topher";
@@ -20,7 +20,7 @@
 // hello2 = hello2 + name;
 // hello2 = hello2 + ' Nice to meet you';
 
-// const hello = `hello my name is ${name}. Nice to meet you. I am ${1 + 100} years old`;
+// // const hello = `hello my name is ${name}. Nice to meet you. I am ${1 + 100} years old`;
 
 // const html = `
 //   <div>
@@ -31,13 +31,11 @@
 
 // document.body.innerHTML = html;
 
+//  const age = 100.5;
+//  const name = 'wes';
 
-
-// const age = 100.5;
-// const name = 'wes';
-
-// const a = 10;
-// const b = 20;
+//  const a = 10;
+//  const b = 20;
 
 // const smarties = 20;
 // const kids = 3;
@@ -47,42 +45,36 @@
 
 // const price = 1034;
 
-
-
-
-// const person = {
-//   first: 'wes',
-//   last: 'bos',
-//   age: 100
-// };
-
+const person = {
+  first: 'wes',
+  last: 'bos',
+  age: 100,
+};
+SNOBUSN;
 
 // let dog;
 // console.log(dog);
 // dog = 'snickers';
 
-
 // let somethingUndefined;
 // const somethingNull = null;
 
 // const cher = {
-//   first: 'cher'
+//   first: 'cher',
 // };
 
 // const teller = {
 //   first: 'Raymond',
-//   last: 'Teller'
-// }
+//   last: 'Teller',
+// };
 
 // teller.first = 'Teller';
 // teller.last = null;
 
-
-
-// let isDrawing = false;
+// const isDrawing = false;
 // let age = 18;
 // const ofAge = age > 19;
 // console.log(ofAge);
 
 // age = 100;
-// let age2 = 100;
+// const age2 = 100;

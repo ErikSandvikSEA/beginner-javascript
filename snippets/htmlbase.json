@@ -9,7 +9,7 @@
     " <title>$1</title>",
     " <link rel=\"stylesheet\" href=\"../base.css\">",
     "</head>",
-    "<body>",
+    "<body>",d
     " $2",
     "</body>",
     "</html>",

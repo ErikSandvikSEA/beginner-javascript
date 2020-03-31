@@ -17,6 +17,12 @@ butts.removeEventListener('click', handleClick);
 // Listen on multiple items
 const buyButtons = document.querySelectorAll('button.buy');
 
+function handleBuyButtonClick() {
+  console.log('You are buying it!');
+}
+
+
+
 function handleBuyButtonClick(event) {
   console.log('You clicked a button!');
   const button = event.target;
@@ -26,12 +32,14 @@ function handleBuyButtonClick(event) {
   console.log(event.currentTarget);
   console.log(event.target === event.currentTarget);
   // Stop this event from bubbling up
-  // event.stopPropagation();
+  event.stopPropagation();
 }
 
 buyButtons.forEach(function(buyButton) {
   buyButton.addEventListener('click', handleBuyButtonClick);
 });
+
+
 
 window.addEventListener(
   'click',
@@ -45,9 +53,9 @@ window.addEventListener(
   { capture: true }
 );
 
-const photoEl = document.querySelector('.photo');
+// const photoEl = document.querySelector('.photo');
 
-photoEl.addEventListener('mouseenter', e => {
-  console.log(e.currentTarget);
-  console.log(this);
-});
+// photoEl.addEventListener('mouseenter', e => {
+//   console.log(e.currentTarget);
+//   console.log(this);
+// });
